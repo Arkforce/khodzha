@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz Khodzhaev</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .about {
+            padding: 4em;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .about h2 {
+            margin-bottom: 1em;
+        }
+        .contact {
+            padding: 4em;
+            background-color: #fff;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 1em;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+        }
+        .contact form button {
+            padding: 1em 2em;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Aziz Khodzhaev</div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Cloud Blog</h1>
+        <p>We are dedicated to cloud</p>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About me</h2>
+        <p>Hi, I’m Aziz, a passionate cloud enthusiast with 6 years of experience in the field.</p> 
+            <p>My journey with cloud technologies began with a fascination for their transformative </p> 
+                <p>potential, and over the years, I’ve had the privilege of working on numerous cloud </p> 
+                    <p>projects that span a variety of industries and applications. Through this blog, I aim</p> 
+                        <p>to share my knowledge, experiences, and the latest updates from the cloud world to </p> 
+                            <p>help you navigate your own cloud journey.</p> 
+            
+        <h2>Join the Community:</h2>
+        <p>Cloud Chronicles is more than just a blog;</p> 
+        <p>it's a community of like-minded individuals who </p> 
+        <p>share a passion for cloud technologies. I invite</p> 
+        <p>you to join the conversation, share your experiences,</p> 
+        <p>and collaborate with others to push the boundaries</p> 
+        <p> of what’s possible in the cloud.</p>
+            
+        <h2>Let’s Connect:</h2>
+        <p> Stay connected and never miss an update by subscribing to the newsletter,</p>
+        <p>   following on social media, and engaging in the comments. Your feedback</p>
+        <p>  and participation are what make this blog a vibrant and valuable resource.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
